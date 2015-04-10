@@ -1,10 +1,7 @@
-//
-//  main.c
-//  TP0
-//
-//  Created by Fernando De Caro on 8/4/15.
-//  Copyright (c) 2015 Fernando De Caro. All rights reserved.
-//
+/* Tp0 SSL UTN
+ * Fernando De Caro
+ * 8/4/15
+ */
 
 #include <stdio.h>
 
