@@ -17,9 +17,10 @@ int main(int argc, const char * argv[]) {
 			c ='\\b';
 		if(c == '	')
 			c = '\\t';
-		if(c == '\')
+		if(c == '\\')
 			c = '\\\\';               
-               putchar(c);
+               //putchar(c);
+		printf("%c",c);	
 		
  	 }
 return 0;
