@@ -9,17 +9,23 @@
 
 int main(int argc, const char * argv[]) {
 	
-	char  c ; 
-        
+	char  c; 
+   
         while ( (c = getchar()) != EOF){
       		
-		if(c == ' ')
-			c ='\\b';
-		if(c == '	')
-			c = '\\t';
-		if(c == '\\')
-			c = '\\\\';               
-               //putchar(c);
+		if(c == '\b'){
+			putchar('\\');
+			c ='b';
+		}
+		else if(c == '\t'){
+			putchar('\\');
+			c= 't';
+		}
+		else if(c == '\\'){
+			putchar('\\');
+			c= '\\'; 
+		}                
+               
 		printf("%c",c);	
 		
  	 }
