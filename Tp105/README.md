@@ -7,7 +7,8 @@ Diagrama
 ## DOT (lenguaje de programación)
 > El diagrama se realiza en forma onlien a traves de [webgraphviz](http://www.webgraphviz.com/) haciendo uso del siguinte lenguaje:
 
-`` digraph maquina_de_estado {
+```
+digraph maquina_de_estado {
 size = "10,10" ;
 ratio = fill;
 node [style=filled];
@@ -20,5 +21,6 @@ node [style=filled];
         "-Out" -> "IN" [ label = "Otro / nw++,nc++" ];
 	"IN" -> "IN" [ label = "Otro / nc++" ];
 
-} ``
+} 
+```
 
