@@ -4,7 +4,9 @@ Maquina de Estado
 Diagrama 
 --------
 
-## DOT (lenguaje de programación)
+![Alt text](https://github.com/ferchas/SSL/blob/master/Tp105/Diagrama.png "Maquina de estado")
+
+#### DOT (lenguaje de programación)
 > El diagrama se realiza en forma onlien a traves de [webgraphviz](http://www.webgraphviz.com/) haciendo uso del siguinte lenguaje:
 
 ```
@@ -23,4 +25,5 @@ node [style=filled];
 
 } 
 ```
+
 
