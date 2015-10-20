@@ -3,7 +3,7 @@
 
 #Análisis Léxico
 
-**1) Investigue sobre *digraphs* y *trigraphs* **
+**1) Investigue sobre digraphs y trigraphs**
 
 En la programación de computadoras, dígrafos y trigrafos son secuencias de dos y tres caracteres, respectivamente, que aparecen en el código fuente y, de acuerdo con una especificación de lenguaje de programación, deben ser tratados como si fueran caracteres individuales. Existen varias razones para el uso de dígrafos y trigrafos: teclados pueden no tener las llaves para cubrir todo el conjunto de caracteres de la lengua, la entrada de caracteres especiales puede ser difícil, editores de texto pueden reservan algunos caracteres para uso especial y así sucesivamente. Trigrafos también podrían ser utilizados para algunas páginas de códigos EBCDIC que carecen de caracteres como {y}.
 
