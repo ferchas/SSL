@@ -14,17 +14,28 @@ Los Trigraphs son reemplazados por el pre-procesador mientras que los Digraphs s
 
 **3) Escriba la secuencia de lexemas a partir de la secuencia de caracteres.**
 
-**Lex 1:** int 
-**Lex 2:** _ 
-**Lex 3:** [ 
-**Lex 4:** :> 
-**Lex 5:** = 
-**Lex 6:** <% 
-**Lex 7:** - 
-**Lex 8:** ! 
-**Lex 9:** .0 
-**Lex 10:** , 
-**Lex 11:** } 
+**Lex 1:** int
+
+**Lex 2:** _
+
+**Lex 3:** [
+
+**Lex 4:** :>
+
+**Lex 5:** =
+
+**Lex 6:** <%
+
+**Lex 7:** -
+
+**Lex 8:** !
+
+**Lex 9:** .0
+
+**Lex 10:** ,
+
+**Lex 11:** }
+
 **Lex 12:** ;
 
 **4) "Tokenize" (i.e. escriba la secuencia de tokens) a partir de la secuencia de lexemas.**
